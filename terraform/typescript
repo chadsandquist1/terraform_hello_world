@@ -1,0 +1,87 @@
+Script started on Tue Apr 15 19:27:52 2025
+complete:13: command not found: compdef
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Chads-MacBook-Air.local/Users/chadsandquist/git_repos/helloWorld/terraform[0m[27m[24m[Jchadsandquist@Chads-MacBook-Air terraform % [K[?2004hbbash[?2004l
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ source ~/.bash-profile
+bash: /Users/chadsandquist/.bash-profile: No such file or directory
+bash-3.2$ cd ~
+bash-3.2$ ls [K[K[Kls
+AWSCLIV2.pkg	Downloads	Music		git_repos
+Desktop		Library		Pictures	tokens
+Documents	Movies		Public
+bash-3.2$ chmod 777 .bash_profile.txt 
+bash-3.2$ chmod 777 .bash_profile.txt [C[C[C[C[C[C[C[C[C[Cls[Kcd ~source ~/.bash-profile
+bash: /Users/chadsandquist/.bash-profile: No such file or directory
+bash-3.2$ source ~/.bash-profile[1Pprofile_profile
+bash-3.2$ cd [K[K[Kls
+AWSCLIV2.pkg	Downloads	Music		git_repos
+Desktop		Library		Pictures	tokens
+Documents	Movies		Public
+bash-3.2$ cd git_repos/helloWorld/
+bash-3.2$ cd git_repos/helloWorld/[C[C[C[C[C[C[C[C[C[Cls[Ksource ~/.bash_profile
+bash-3.2$ source ~/.bash_profile
+called git prompt!
+bash-3.2$ source ~/.bash_profile
+called git prompt!
+bash-3.2$ ls
+Dockerfile		gradle			run-my-script.sh
+app			gradle.properties	settings.gradle
+bin			gradlew			src
+build			gradlew.bat		terraform
+build.gradle		pre-commit
+bash-3.2$ cd [K[K[Kzd[Kch
+bash: zch: command not found
+bash-3.2$ chsh -s $(which zsh)
+Changing shell for chadsandquist.
+Password for chadsandquist: 
+chsh: no changes made
+bash-3.2$ sudo yum install zsh
+Password:
+sudo: yum: command not found
+bash-3.2$ brew install zch
+[34m==>[0m [1mAuto-updating Homebrew...[0m
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:7645e2d653a335798030f6502e7834dfdbeeec5629429a1a34da5dbb2c57d63e[0m
+#=#=#                                                                           ##O#- #                                                                                                                                                     0.3%###                                                                         4.8%#############                                                              19.1%############################                                               39.3%#######################################                                    54.1%#####################################################                      73.8%#######################################################################    97.6%######################################################################### 100.0%
+[34m==>[0m [1mPouring portable-ruby-3.3.8.arm64_big_sur.bottle.tar.gz[0m
+[34m==>[0m [1mAuto-updated Homebrew![0m
+Updated 2 taps (homebrew/core and homebrew/cask).
+[34m==>[0m [1mNew Formulae[0m
+apache-flink@1      fedify              mani                tfcmt
+chdig               ftxui               marmite             tsui
+dblab               github-mcp-server   otterdog            twitch-cli
+dockerfmt           hub-tool            pyp
+[34m==>[0m [1mNew Casks[0m
+antinote                   font-adwaita               font-m-plus-rounded-1c
+comfyui                    font-coral-pixels          ijhttp
+companion                  font-epunda-sans           ndi-tools
+companion-satellite        font-epunda-slab           opencloud
+companion@beta             font-exile                 ovice
+dante-controller           font-kumar-one-outline     repo-prompt
+dante-via                  font-libertinus-math
+excire-foto                font-libertinus-mono
+
+You have [1m7[0m outdated formulae installed.
+
+[33mWarning:[0m No available formula with the name "zch". Did you mean zsh?
+[34m==>[0m [1mSearching for similarly named formulae and casks...[0m
+[34m==>[0m [1mFormulae[0m
+ktoblzcheck                zchunk                     zsh
+
+To install ktoblzcheck, run:
+  brew install ktoblzcheck
+bash-3.2$ ls
+Dockerfile		gradle			run-my-script.sh
+app			gradle.properties	settings.gradle
+bin			gradlew			src
+build			gradlew.bat		terraform
+build.gradle		pre-commit
+bash-3.2$ chsh -s $(which zsh)
+Changing shell for chadsandquist.
+Password for chadsandquist: 
+chsh: no changes made
+bash-3.2$ 
